@@ -1,27 +1,101 @@
-# NayePankh Foundation Data Analytics Project
+# NayePankh Foundation Impact Analytics System
 
-## Objective
-Analyze donation trends, volunteer engagement, social media growth, and campaign performance for NayePankh Foundation.
+## Project Overview
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Scikit-Learn
-- VS Code
+NayePankh Foundation Impact Analytics System is a data analytics project designed to analyze donation trends, volunteer engagement, fundraising campaign performance, social media growth, and organizational impact. The project combines Python, SQL, Machine Learning, and Power BI to generate actionable insights for NGO decision-making.
 
-## Features
-- Donation Analysis
-- Volunteer Analytics
-- Social Media Analytics
-- Campaign ROI Analysis
-- Donation Prediction using Machine Learning
+## Objectives
+
+* Analyze donation patterns and fundraising performance.
+* Track volunteer participation and engagement.
+* Measure social media growth and outreach effectiveness.
+* Evaluate campaign return on investment (ROI).
+* Predict future donation trends using Machine Learning.
+
+## Technology Stack
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-Learn
+* SQLite
+* SQL
+* Power BI
+* Git & GitHub
+
+## Key Features
+
+### Executive Dashboard
+
+* Total Donations
+* Average Donation
+* Total Volunteers
+* Total Beneficiaries
+
+### Fundraising Analytics
+
+* Campaign-wise Donation Analysis
+* Monthly Donation Trend
+* Donor Segmentation
+* Donation Forecasting
+
+### Volunteer Analytics
+
+* Volunteer Hours by City
+* Top Volunteer Identification
+* Event Participation Analysis
+
+### Impact Analytics
+
+* Beneficiary Reach Analysis
+* Campaign Cost per Beneficiary
+* Social Impact Measurement
+
+### Machine Learning
+
+* Donation Prediction Model
+* Trend Forecasting using Regression Techniques
 
 ## Project Structure
-data/
-screenshots/
-src/
-reports/
 
-## Outcome
-Generated insights and visualizations to support data-driven decision-making for NGO operations.
+```text
+NayePankh-Foundation-Impact-Analytics-System/
+│
+├── dashboards/
+│   └── NayePankh_Dashboard.pbix
+│
+├── data/
+│   ├── donations.csv
+│   ├── volunteers.csv
+│   ├── campaigns.csv
+│   └── social_media.csv
+│
+├── screenshots/
+│
+├── reports/
+│
+├── src/
+│   ├── analysis.py
+│   ├── database.py
+│   ├── sql_queries.py
+│   └── business_insights.py
+│
+├── nayepankh.db
+└── README.md
+```
+
+## Results
+
+* Built a multi-page Power BI dashboard.
+* Generated business insights using Python and SQL.
+* Created donation forecasting models using Machine Learning.
+* Produced visual reports for fundraising and volunteer performance analysis.
+
+## Author
+
+Sujoy Rana
+
+## GitHub Repository
+
+NayePankh Foundation Impact Analytics System
